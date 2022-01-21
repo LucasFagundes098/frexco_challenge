@@ -2,6 +2,7 @@
  Uma aplicação web utilizando uma API pública.
 
 IMPORTANTE - Caso a lista de produtos vinda da API não carregue talvez seja necessário baixar a extensão no seu navegador - Moesif Origin & CORS Changer
+<br>
 Após a utilização da extensão desabilitar novamente.
 
 ![image](https://user-images.githubusercontent.com/62566792/150461553-c43fa0aa-54fa-4240-92f8-5803eecb2b3c.png)
