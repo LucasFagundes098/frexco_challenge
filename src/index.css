@@ -1,0 +1,214 @@
+body{
+   background-color: #F8F5EC;
+}
+
+/* NAVBAR */
+* {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex; 
+  align-items: center;
+}
+.navbar h1 {
+  color: #68756c;
+  margin-left: 13em;
+}
+.navbar .navbar-links {
+  margin-left: auto;
+  margin-left: 25em;
+  line-height: 20px;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #68756c;
+}
+.navbar-links .cart-icon  {
+  font-size: 1.1em;
+  margin-top: 25px;
+  line-height: 20px;
+}
+ /* APP */
+.app {
+  height: 100vh;
+  background-color: #F8F5EC;
+  background-size: cover;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./Assets/background_02.jpg');
+}
+.container{
+  width: 734px;
+  height: 485px;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 10px rgba(0,0,0,.15);
+  border-radius: 20px;
+  padding: 24px;
+  align-items: center;
+  margin-left: 18em;
+  overflow-y: auto;
+}
+
+/* PRODUCT LIST */
+.data-result{
+  height: 460px;
+}
+.data-result .data-result-item{
+  height: 40px;
+  width: 80%;
+  margin-left: 4em;
+  padding: 10px;
+  display: flex;
+}
+.data-result-item button{
+  margin-left: auto;
+  align-items: center;
+  background-color: #459942;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.product-list .product-title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-bottom: 1px solid #a4a8b0;
+  padding: 5px;
+}
+
+/* CART ITEMS */
+.cart-item-list{
+  border-bottom: 1px solid #a4a8b0;
+  padding: 8px;
+  display: flex;
+}
+.cart-item-list .cart-item-info{
+  margin-left: 5em;
+}
+.clear-cart{
+  display: flex;
+  padding: 10px;
+}
+.clear-cart h3{
+font-weight: 600;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.5em;
+}
+.cart-no-items-title{
+  margin-left: 0.6em;
+}
+.clear-cart-button{
+  margin-left: auto;
+  align-items: center;
+  background-color: #459942;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+.clear-cart-button:hover,
+.clear-cart-button:focus,
+.product-add-button:hover,
+.product-add-button:focus { 
+  background-color: #367534;
+  color: #ffffff;
+}
+
+.clear-cart-button:active,
+.product-add-button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.clear-cart-button:disabled,
+.product-add-button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.data-result-item {
+  padding: 15px;
+}
+.cart-items-functions {
+  padding: 4px;
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 15px;
+  cursor: pointer;
+  display: inline-flex;
+  width: 80px;
+  margin-right: 8px;
+}
+.cart-items-functions .product-button{
+  background-color: initial;
+  background-color: #459942;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 22px;
+  line-height: 15px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  margin-right: 6px;
+}
+.product-button:hover {
+  background-color: #367534;
+}
