@@ -1,5 +1,5 @@
 # frexco_challenge
- Uma aplicação web utilizando uma API pública.
+ Uma aplicação web utilizando uma API pública. - Não responsivo ( ainda :) )
 
 IMPORTANTE - Caso a lista de produtos vinda da API não carregue talvez seja necessário baixar a extensão no seu navegador - Moesif Origin & CORS Changer
 <br>
