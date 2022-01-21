@@ -31,7 +31,7 @@ ____________________________________________________________
 
 Caso queira baixar o repositório.
 
-1 - Baixar o repositório.
-2 - Baixar as dependências.
+1 - Baixar o repositório. <br>
+2 - Baixar as dependências. <br>
 3 - Inicializar utilizando 'npm start'.
 
