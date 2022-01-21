@@ -2,6 +2,7 @@
  Uma aplicação web utilizando uma API pública.
 
 IMPORTANTE - Caso a lista de produtos vinda da API não carregue talvez seja necessário baixar a extensão no seu navegador - Moesif Origin & CORS Changer
+Após a utilização da extensão desabilitar novamente.
 
 ![image](https://user-images.githubusercontent.com/62566792/150461553-c43fa0aa-54fa-4240-92f8-5803eecb2b3c.png)
 
@@ -23,4 +24,13 @@ ____________________________________________________________
 
 4° Carrinho quando os produtos são selecionados, tendo a opção de limpar o carrinho e alterar a quantidade de produtos.
 ![image](https://user-images.githubusercontent.com/62566792/150461918-f9ac368b-bea9-4706-a789-6750ede0ee0a.png)
+
+
+____________________________________________________________
+
+Caso queira baixar o repositório.
+
+1 - Baixar o repositório.
+2 - Baixar as dependências.
+3 - Inicializar utilizando 'npm start'.
 
